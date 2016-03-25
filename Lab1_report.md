@@ -18,14 +18,14 @@ Grep是一种强大的匹配搜索工具，它可以通过正则表达式来匹�
 克隆时只会在本地创建master分支(被HEAD指向的分支)，其余分支均不会被自动检出。但是如果想要其他分支可以单独使用checkout指令在本地创建一个分支并且自动与远程的同名分支 关联起来。Git status是显示当前git文件追踪以及修改状态，git log 显示历史文件的版本信息，git commit是将暂存区的文件移动到本地版本库，并不访问远程版本库。Git checkout指令在本地创建与远程分支同名的分支时会自动指向远程分支，所以算是会访问远程版本库。克隆后的默认分支不会处于master分支而是处于之前所在的分支
 所以3是正确的，其余都是错误的。
 依据如下：
-![first](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/4.jpg?raw=true)
-![second](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/4.png?raw=true)
-![third](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/5.png?raw=true)
+![first](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/picture/4.jpg?raw=true)
+![second](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/picture/4.png?raw=true)
+![third](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/picture/5.png?raw=true)
  
 参考依据来源于自己的实验结果，网络博客以及参考书《pro-git》.
 ##实验难点图示
 我认为本次实验相对比较难的是printf函数的实现，在阅读了很久并且查阅了不少的相关材料之后才有所理解，printf函数的主要子函数包lp_Print函数，其主要实现过程如下:
-![forth](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/print.png?raw=true)
+![forth](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/picture/print.png?raw=true)
 ##体会与感想
 第一次的操作系统实验还是比较简单的，并没有遇见太多的很难的地方，不过这其中大部分的原因还是因为我们有十分详尽和完备的实验指导书。其中大部分的练习题附近都会有很明显的暗示，所以有可能即使对一个问题没有理解的很透彻，跟着指导书的提示仍然能做出来。这就要求我们下去之后仍然需要自己去琢磨透彻其中的深层次原理。
 在试验1上花费的总时间估计将近十个小时，其中很大一部分时间都用来阅读指导书和查阅相关的资料，可以看出来还是比较慢的。
