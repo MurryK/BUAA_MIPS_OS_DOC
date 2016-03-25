@@ -20,6 +20,7 @@ Grep是一种强大的匹配搜索工具，它可以通过正则表达式来匹�
 依据如下：
 ![first](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/4.jpg?raw=true)
 ![second](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/4.png?raw=true)
+![third](https://github.com/MurryK/BUAA_MIPS_OS_DOC/blob/master/5.png?raw=true)
  
 参考依据来源于自己的实验结果，网络博客以及参考书《pro-git》.
 ##实验难点图示
